@@ -1,0 +1,11 @@
+:development: &defaults
+  :adapter: sqlite3
+  :database: myapp_development
+
+:test:
+  <<: *defaults
+  :database: myapp_test
+
+:production:
+  <<: *defaults
+  :database: myapp_production
