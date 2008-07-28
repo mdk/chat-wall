@@ -53,6 +53,7 @@ Gem.path.unshift(Merb.root / "gems")
 # here.
 #
 dependency "merb_helpers"
+dependency "merb-assets"
 # dependencies "RedCloth", "merb_helpers"
 # OR
 # dependency "RedCloth", "> 3.0"
