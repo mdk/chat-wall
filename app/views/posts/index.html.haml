@@ -1,0 +1,31 @@
+:javascript
+  function OnSuccess (responseText)
+  {
+    var element = $(responseText);
+    $('#posts').append(element);
+    element.hide ().show("slow");
+  } 
+
+  function OnReady ()
+  {
+    var options = 
+    {
+      resetForm: true,
+      success: OnSuccess
+    };
+
+    $('#new').ajaxForm(options);
+  }
+
+  $(document).ready(OnReady);
+
+%h1 Welcome to ChatWall!
+%h2 A simple merb application
+
+%p Recent posts:
+#posts.container= partial("/shared/post", :with => @posts)
+
+%p Post something:
+- form_tag(:id => "new", :action => url( :controller => "posts", :action => "dynamic_create")) do
+  = text_field(:name => "body", :size => 40)
+  = submit_button("Post Message!")

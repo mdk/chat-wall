@@ -60,7 +60,7 @@ dependency "merb_helpers"
 # dependencies "RedCloth" => "> 3.0", "ruby-aes-cext" => "= 1.0"
 Merb::BootLoader.after_app_loads do
   # Add dependencies here that must load after the application loads:
-
+  require "merb-haml"
   # dependency "magic_admin" # this gem uses the app's model classes
 end
 
