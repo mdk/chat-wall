@@ -1,4 +1,4 @@
 .DS_Store
 myapp_*
 *.log
-
+public/stylesheets/*.css
