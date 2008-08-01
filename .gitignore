@@ -2,3 +2,4 @@
 myapp_*
 *.log
 public/stylesheets/*.css
+*.tmproj
