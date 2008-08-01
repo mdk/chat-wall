@@ -7,9 +7,4 @@ describe Post do
     post.should be_valid
   end
   
-  it "can be transformed to json" do
-    post = Post.new
-    post.to_json
-  end
-
 end
