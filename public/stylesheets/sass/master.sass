@@ -1,7 +1,12 @@
+!light_gray = #aaa
+!dark_gray = #333
+!white = #fff
+!medium_gray = #eee
+
 body
   :font-family Arial, sans-serif
   :font-size 12pt
-  :background-color #fff
+  :background-color= !white
   :margin-top 30pt
   :margin-left 30pt
   :margin-right 30pt
@@ -9,14 +14,14 @@ body
   
 .container
   :width 100%
-  :background-color #eee
+  :background-color= !medium_gray
   :padding 10pt
   
 .post
   :padding 5pt
   :margin 5pt
-  :background-color #fff
-  :color #333
+  :background-color= !white
+  :color= !dark_gray
   :height 20pt
   
 .post p
@@ -28,5 +33,5 @@ body
 
 .created
   :font-weight bold
-  :color #aaa
+  :color= !light_gray
   :float right
