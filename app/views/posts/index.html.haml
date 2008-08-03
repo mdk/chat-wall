@@ -22,10 +22,11 @@
 %h1 Welcome to ChatWall!
 %h2 A simple merb application
 
-%p Recent posts:
+%h3 Recent posts:
 #posts.container= partial("/shared/post", :with => @posts)
 
-%p Post something:
-- form_tag(:id => "new", :action => url( :controller => "posts", :action => "dynamic_create")) do
-  = text_field(:name => "body", :size => 40)
-  = submit_button("Post Message!")
+%h3 Post something:
+.container
+  - form_tag(:id => "new", :action => url( :controller => "posts", :action => "dynamic_create")) do
+    = text_field(:name => "body", :size => 40)
+    = submit_button("Post Message!")
