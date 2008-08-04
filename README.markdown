@@ -1,6 +1,6 @@
 ## Chat wall
 
-This is a very simple (almost tutorial) application in [Merb](http://merbivore.com/) framework taken from this [SlAPP tutorial](http://www.socialface.com/slapp/) . 
+This is a very simple (almost tutorial) application in [Merb](http://merbivore.com/) framework taken from this [SLAPP tutorial](http://www.socialface.com/slapp/) . 
 
 A little bit of additional AJAX & theming was added. 
 
