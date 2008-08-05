@@ -2,7 +2,7 @@
 
 This is a very simple (almost tutorial) application in [Merb](http://merbivore.com/) framework taken from this [SLAPP tutorial](http://www.socialface.com/slapp/) . 
 
-A little bit of additional AJAX & theming was added. 
+A little bit of additional AJAX & theming was added. All credit goes to the original author.
 
 Some shortcuts:
 
