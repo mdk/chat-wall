@@ -1,11 +1,11 @@
 :development: &defaults
   :adapter: sqlite3
-  :database: myapp_development
+  :database: chatwall_development
 
 :test:
   <<: *defaults
-  :database: myapp_test
+  :database: chatwall_test
 
 :production:
   <<: *defaults
-  :database: myapp_production
+  :database: chatwall_production
