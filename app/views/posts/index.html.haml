@@ -2,7 +2,7 @@
   function OnSuccess (responseText)
   {
     var element = $(responseText);
-    $('#posts').append(element);
+    $('#posts').prepend(element);
     element.hide ().show("slow");
   } 
 
